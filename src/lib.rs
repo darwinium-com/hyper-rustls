@@ -80,7 +80,7 @@
 #![cfg_attr(docsrs, feature(doc_cfg))]
 
 #[cfg(feature = "acceptor")]
-mod acceptor;
+pub mod acceptor;
 mod config;
 mod connector;
 mod stream;
